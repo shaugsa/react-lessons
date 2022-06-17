@@ -4,25 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
-}
 
-const user = {
-  firstName : 'Ihar',
-  lastName : 'Zapolski'
-};
-
-const element = (
-  <h1>
-    Hello, {formatName(user)}!
-  </h1>
-);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {element}
+    <App />
   </React.StrictMode>
 );
 
