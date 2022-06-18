@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from './components/Clock';
+import Toggle from './components/Toggle';
 
 
 function App() {
   return (
-    <Clock />
+    <div>
+      <Clock />
+      <Toggle />
+    </div>
   );
 }
 
