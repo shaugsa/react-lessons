@@ -5,6 +5,7 @@ import Toggle from './components/Toggle';
 import LoginControl from './components/LoginControl';
 import PropsItems from './components/PropsItems';
 import NameForm from './components/NameForm';
+import CalculatorTemp from './components/CalculatorTemp';
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -16,6 +17,7 @@ function App() {
       <LoginControl />
       <PropsItems numbers={numbers} />
       <NameForm />
+      <CalculatorTemp />
     </div>
   );
 }
